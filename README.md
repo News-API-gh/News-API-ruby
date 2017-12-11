@@ -1,2 +1,7 @@
-# News-API-ruby
-Our officially supported Ruby client library for accessing News API.
+# News API SDK for Ruby
+Coming soon... this is where our officially supported SDK for Ruby is going to live.
+
+***
+
+## Developers... we need you!
+We need some help fleshing out this repo. If you're a Ruby dev with experience building gems and API wrappers, we're offering a reward of $250 to help us get started. For more info please email support@newsapi.org, or dive right in and send us a pull request.
