@@ -56,7 +56,7 @@ class News
             raise UnauthorizedException, json
         elsif res.code == '400'
             raise BadRequestException, json
-        elsif res.code == '429'
+        elsif res.code == '429' || res.code == '426'
             raise TooManyRequestsException, json
         elsif res.code == '500'
             raise ServerException, json
