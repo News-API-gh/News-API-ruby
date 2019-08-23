@@ -10,7 +10,7 @@ class News
     BASE_URL = 'https://newsapi.org/' + VERSION + '/'
 
     def initialize(api_key)
-        @api_key = api_key 
+        @api_key = api_key
     end
 
     def get_top_headlines(**args)
@@ -80,7 +80,7 @@ class News
             data.push(
                 Everything.new(
                     a["source"], a["author"], a["title"],
-                    a["description"], a["url"],
+                    a["description"], a["content"], a["url"],
                     a["urlToImage"], a["publishedAt"]
                 )
             )
