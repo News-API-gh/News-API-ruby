@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.name        = 'news-api'
-    s.version     = '0.1.0'
-    s.date        = '2019-06-25'
+    s.version     = '0.2.0'
+    s.date        = '2019-08-23'
     s.summary     = "News API SDK for Ruby"
     s.description = "News API SDK gem"
     s.authors     = ["Oleg Mikhnovich"]
