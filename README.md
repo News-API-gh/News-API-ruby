@@ -1,7 +1,35 @@
 # News API SDK for Ruby
-Coming soon... this is where our officially supported SDK for Ruby is going to live.
 
-***
+## Installation
 
-## Developers... we need you!
-We need some help fleshing out this repo. If you're a Ruby dev with experience building gems and web API wrappers, we're offering a reward of $250 to help us get started. For more info please email support@newsapi.org, or dive right in and send us a pull request.
+```shell
+gem install news-api
+```
+
+## Usage
+
+### Initilisation
+
+```ruby
+require 'news-api'
+
+n = News.new("api_key")
+```
+
+### Sources
+
+```ruby
+n.get_sources(country: 'us', language: 'en')
+```
+
+### Everything
+
+```ruby
+n.get_everything(q: "apple", from: "2018-01-05&to=2018-01-05", sortBy: "popularity")
+```
+
+### Top Headlines
+
+```ruby
+n.get_top_headlines(sources: "bbc-news")
+```
